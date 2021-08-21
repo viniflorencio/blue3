@@ -1,0 +1,4 @@
+*.json
+*.jpg
+!package.json
+node_modules/
