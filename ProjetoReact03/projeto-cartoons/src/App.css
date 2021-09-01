@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: rgb(154, 154, 223);
+ 
 
 }
 
@@ -14,6 +14,10 @@ body{
   height: 100%;
   position: relative;
   scroll-behavior: smooth;
+  background-image: url("https://wallpaperaccess.com/full/247317.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 .dFlex{
@@ -23,34 +27,46 @@ body{
 }
 
 nav{
-  justify-content: space-between;
-  width: 100%;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
   font-size: x-large;
   font-weight: 600;
-  background-image: url("https://sm.ign.com/t/ign_br/screenshot/default/cartoon-network_jdxp.1200.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.9;
+
+
 }
 
 nav ul{
+  border: 2px solid blue;
+  background-color: white;
+  border-radius: 20px;
+  width: 20%;
   list-style: none;
-  display: flex;
-  padding: 2rem;
+  padding: 1rem;
+  margin: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 nav ul li{
-  margin-left: 2rem;
+  margin: 0rem 1rem 0rem 1rem;
   box-sizing: border-box;
   cursor: pointer;
+  transition: all 0.7s ease-out;
+  text-shadow: 1px 1px black;
+}
+
+nav ul li:hover{
+
+  transform:scaleX(1.3);
+
 }
 
 
 .mainContent{
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,26 +78,31 @@ nav ul li{
   box-sizing: border-box;
   justify-content: space-between;
   flex-wrap: wrap;
+  border: 5px solid blue;
+  border-radius: 20px;
+  opacity: 0.92;
+
+
 }
 
 form{
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 1rem;
+  
 }
 
 form input{
   border: 2px solid blue;
   border-radius: 6px;
   padding: 0.3rem;
-  margin-left: 1rem;
+
 }
 
 form label{
-  padding: 0.5rem;
+  padding: 0.1rem;
   font-size: 20px;
   margin-left: 2rem;
   font-weight: 500;
@@ -94,6 +115,7 @@ form button{
   transition: all 0.7s ease-out;
   margin-left: 2rem;
   color: blue;
+  cursor: pointer;
   
 }
 
@@ -114,10 +136,12 @@ form button:hover{
   width: 50%;
   margin-bottom: 3rem;
 
+
 }
 
 img:hover{
   transform: scale(1.1);
+
 }
 
 .cardImg{
@@ -133,6 +157,8 @@ img{
   border-radius: 20%;
   border: 3px solid;
   border-color: blue;
+
+  
 }
 
 .CardInfo{
@@ -158,6 +184,40 @@ p{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+
+}
+.footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-weight: 500;
+  text-shadow: 1px 1px black;
+}
+
+.footer a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-weight: 500;
+  text-shadow: 1px 1px black;
+  text-decoration-line: none;
+  transition: ease-in 0.7s;
+}
+
+.footer a:hover{
+  transform: scale(1.1);
+  color: rgb(2, 252, 2);
 }
 
 

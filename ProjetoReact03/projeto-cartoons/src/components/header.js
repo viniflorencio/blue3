@@ -7,7 +7,7 @@ export default function Header(){
             <ul>
                 <li>Home</li>
                 <li>Cartoons</li>
-                <li>About Us</li>
+                <li>About Me</li>
             </ul>
         </nav>
     )
