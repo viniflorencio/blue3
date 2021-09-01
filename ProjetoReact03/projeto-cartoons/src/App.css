@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(154, 154, 223);
+
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.dFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav{
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  background-image: url("https://sm.ign.com/t/ign_br/screenshot/default/cartoon-network_jdxp.1200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li{
+  margin-left: 2rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+.mainContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 3rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+form input{
+  border: 2px solid blue;
+  border-radius: 6px;
+  padding: 0.3rem;
+  margin-left: 1rem;
+}
+
+form label{
+  padding: 0.5rem;
+  font-size: 20px;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+
+form button{
+  border: 2px solid blue;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+  transition: all 0.7s ease-out;
+  margin-left: 2rem;
+  color: blue;
+  
+}
+
+form button:hover{
+  border: white;
+  background-color: blue;
+  transform: scale(1.2);
+  color: white;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  margin-bottom: 3rem;
+
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.cardImg{
+  padding: 1rem;
+  }
+  
+img{
+  max-width: 100%;
+  width: 395px;
+  height: 395px;
+  transition: all 0.7s ease-out;
+  object-fit: fill;
+  border-radius: 20%;
+  border: 3px solid;
+  border-color: blue;
+}
+
+.CardInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  width: 70%;
+
+}
+
+h2{
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.795);
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+p{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.795);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
