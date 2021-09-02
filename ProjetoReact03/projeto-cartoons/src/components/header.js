@@ -5,9 +5,9 @@ export default function Header(){
         <nav>
             <div className="logo"></div>
             <ul>
-                <li>Home</li>
-                <li>Cartoons</li>
-                <li>About Me</li>
+                <li><a href="http://localhost:3000/">Home</a></li>
+                <li><a href="">Cartoons</a></li>
+                <li><a href="https://www.linkedin.com/in/vinicius-florencio-069856138/" target="_blank">About Me</a></li>
             </ul>
         </nav>
     )

@@ -50,12 +50,19 @@ nav ul{
   align-items: center;
 }
 
-nav ul li{
+nav ul li {
   margin: 0rem 1rem 0rem 1rem;
   box-sizing: border-box;
   cursor: pointer;
   transition: all 0.7s ease-out;
   text-shadow: 1px 1px black;
+  text-decoration-line: none;
+}
+
+nav ul li a{
+  text-decoration-line: none;
+  text-shadow: 1px 1px black;
+  color: black;
 }
 
 nav ul li:hover{
@@ -130,11 +137,12 @@ form button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20%;
+  border-radius: 10%;
   flex-direction: column;
   position: relative;
-  width: 50%;
+  width: 40%;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 
 
 }
@@ -164,9 +172,10 @@ img{
 .CardInfo{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   margin: 2rem;
-  width: 70%;
+  width: 60%;
+
 
 }
 
@@ -181,7 +190,7 @@ h2{
 p{
   font-size: 20px;
   color: rgba(0, 0, 0, 0.795);
-  text-align: center;
+  text-align: justify;
   display: flex;
   flex-wrap: wrap;
 }
@@ -219,6 +228,10 @@ p{
   transform: scale(1.1);
   color: rgb(2, 252, 2);
 }
+
+
+
+
 
 
 
