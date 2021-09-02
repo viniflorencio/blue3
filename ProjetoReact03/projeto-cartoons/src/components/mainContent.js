@@ -26,7 +26,25 @@ const MainContent =() =>{
             name: "Coragem o cão Covarde",
             description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             image:"https://uploads.metropoles.com/wp-content/uploads/2018/10/25111316/coragem-cao-covarde-5.jpg",
-        }
+        },
+        {
+            id: 4,
+            name: "Os Flinstones",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            image:"https://static.globalnoticias.pt/dn/image.jpg?brand=DN&type=generate&guid=36aed651-5933-4cc1-9410-21f903c01112",
+        },
+        {
+            id: 5,
+            name: "A vaca e o Frango",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            image:"https://http2.mlstatic.com/D_NQ_NP_795601-MLB20345696188_072015-O.jpg",
+        },
+        {
+            id: 6,
+            name: "O laboratório de Dexter",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            image:"https://www.einerd.com.br/wp-content/uploads/2020/05/O-Laborat%C3%B3rio-de-Dexter-capa.jpg",
+        },
     ]);
 
     const handleNameChange = (evento) =>{
